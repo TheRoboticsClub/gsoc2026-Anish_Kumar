@@ -514,11 +514,11 @@ ninja.data = [{
           window.open("https://github.com/anishk85", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
+        id: 'social-linkedin',
+        title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("/gsoc2026-Anish_Kumar/feed.xml", "_blank");
+          window.open("https://www.linkedin.com/in/anish-kumar-851830317", "_blank");
         },
       },{
       id: 'light-theme',
