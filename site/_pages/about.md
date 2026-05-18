@@ -9,16 +9,13 @@ profile:
   image: prof_pic.jpg
   image_circular: true
   more_info: >
-    <p>GSoC 2026 · JdeRobot</p>
-    <p>Robotics Academy</p>
+    <p>GSoC 2026 · JdeRobot · Robotics Academy</p>
 
 selected_papers: false
 social: true
 
 announcements:
-  enabled: true
-  scrollable: true
-  limit: 5
+  enabled: false
 
 latest_posts:
   enabled: true
@@ -35,6 +32,6 @@ This project introduces **first-ever multi-agent collaboration** in JdeRobot's R
 - Implement a mouse-drone with evasion behavior
 - Integrate both agents into Robotics Academy's exercise framework
 
-Currently exploring the best architecture for multi-agent support: whether the existing RAM (Robot API Manager) needs extension, can be reused as-is, or if a cleaner approach exists without modifying it. The goal is a general solution that works not just for this exercise but as a reusable pattern for all future multi-agent exercises in the Robotics Academy ecosystem.
+Currently exploring the best architecture for multi-agent support: whether the existing RAM (Robot Application Manager) needs extension, can be reused as-is, or if a cleaner approach exists without modifying it. The goal is a general solution that works not just for this exercise but as a reusable pattern for all future multi-agent exercises in the Robotics Academy ecosystem.
 
 Follow my weekly progress in the [blog](/gsoc2026-Anish_Kumar/blog/).

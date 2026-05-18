@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Week 0 — Community Bonding: Platform Architecture & Multi-Agent Proposal"
+title: "Community Bonding: Platform Architecture & Multi-Agent Proposal"
 date: 2026-05-18 12:00:00+0530
 description: Deep dive into JdeRobot's three-repo platform architecture and a concrete proposal for multi-agent support in RAM.
 tags: [gsoc, community-bonding, jderobot, ros2, ram]
