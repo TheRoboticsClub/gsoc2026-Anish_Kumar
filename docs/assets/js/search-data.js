@@ -16,9 +16,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/gsoc2026-Anish_Kumar/blog/";
           },
-        },{id: "post-week-0-community-bonding-platform-architecture-amp-multi-agent-proposal",
+        },{id: "post-community-bonding-platform-architecture-amp-multi-agent-proposal",
         
-          title: "Week 0 — Community Bonding: Platform Architecture &amp; Multi-Agent Proposal",
+          title: "Community Bonding: Platform Architecture &amp; Multi-Agent Proposal",
         
         description: "Deep dive into JdeRobot&#39;s three-repo platform architecture and a concrete proposal for multi-agent support in RAM.",
         section: "Posts",
