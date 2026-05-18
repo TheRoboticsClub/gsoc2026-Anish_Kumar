@@ -7,10 +7,10 @@ subtitle: GSoC 2026 Contributor @ <a href='https://jderobot.github.io/'>JdeRobot
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false
+  image_circular: true
   more_info: >
-    <p>Indian Institute of Technology</p>
-    <p>Robotics Academy · JdeRobot</p>
+    <p>GSoC 2026 · JdeRobot</p>
+    <p>Robotics Academy</p>
 
 selected_papers: false
 social: true
@@ -28,12 +28,15 @@ latest_posts:
 
 I'm Anish Kumar, a GSoC 2026 contributor working with **JdeRobot Robotics Academy** on the **Drone Cat-Mouse Chase Exercise**.
 
+**As of May 19, 2026 — Community Bonding Period is ongoing.**
+
 This project introduces **first-ever multi-agent collaboration** in JdeRobot's Robotics Academy — two autonomous drones (cat and mouse) operating simultaneously in a shared simulation environment. This is a novel milestone for the platform, pushing ROS2 + Gazebo simulation into multi-agent territory.
 
 **Project goals:**
 - Implement a cat-drone that autonomously chases a mouse-drone
 - Implement a mouse-drone with evasion behavior
 - Integrate both agents into Robotics Academy's exercise framework
-- Evaluate whether existing RAM (Robot API Manager) supports multi-agent setups or needs extension
+
+Currently exploring the best architecture for multi-agent support: whether the existing RAM (Robot API Manager) needs extension, can be reused as-is, or if a cleaner approach exists without modifying it. The goal is a general solution that works not just for this exercise but as a reusable pattern for all future multi-agent exercises in the Robotics Academy ecosystem.
 
 Follow my weekly progress in the [blog](/gsoc2026-Anish_Kumar/blog/).
