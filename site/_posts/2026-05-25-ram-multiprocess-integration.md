@@ -7,15 +7,7 @@ tags: [gsoc, jderobot, ros2, ram, multi-agent]
 categories: [weekly-update]
 ---
 
-## First, a direction change
-
-This week I integrated multi-process support into RAM and tested it end-to-end inside the actual Robotics Academy GUI.
-
-Last post I had proposed a companions-list approach — a static config of pre-programmed group of processes that RAM would manage alongside the student's code. That got put on hold after the mentor sync. The mentor had a cleaner direction: RAM should handle **N applications** generically, driven by the frontend payload, so RAM doesn't need to know anything about the exercise topology upfront. More flexible, and no static config needed.
-
-The mentor also suggested proving the concept offline first with a small PoC before touching the real codebase — that became Anish Manager.
-
----
+This week I integrated multi-process support into RAM and tested it end-to-end inside the actual Robotics Academy GUI. The goal: make RAM manage N processes instead of one — run them together, pause them together, kill them together.
 
 ## So I built Anish Manager first
 
