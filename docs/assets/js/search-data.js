@@ -16,7 +16,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/gsoc2026-Anish_Kumar/blog/";
           },
-        },{id: "post-community-bonding-platform-architecture-amp-multi-agent-proposal",
+        },{id: "post-integrating-multi-process-support-into-ram",
+        
+          title: "Integrating Multi-Process Support into RAM",
+        
+        description: "How a small PoC called Anish Manager proved the concept, and how that concept got folded into the real RoboticsApplicationManager codebase.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/gsoc2026-Anish_Kumar/blog/2026/ram-multiprocess-integration/";
+          
+        },
+      },{id: "post-community-bonding-platform-architecture-amp-multi-agent-proposal",
         
           title: "Community Bonding: Platform Architecture &amp; Multi-Agent Proposal",
         
