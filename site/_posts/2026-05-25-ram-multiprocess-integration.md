@@ -9,9 +9,11 @@ categories: [weekly-update]
 
 ## First, a direction change
 
-In my last mentor meeting, the companions-list (pre-programmed group of processes) approach from the previous post got put on hold. The mentor had a cleaner proposal: instead of a static companions config, RAM should handle **N applications** generically — a list that comes in from the frontend payload, so RAM doesn't need to know anything about the exercise topology upfront.
+This week I integrated multi-process support into RAM and tested it end-to-end inside the actual Robotics Academy GUI.
 
-The mentor also suggested building Anish Manager first — a small offline PoC — to prove the process management concept cleanly before touching the real codebase. That gave a lot of clarity on exactly what signals and patterns RAM would need. Glad the direction was appreciated too.
+Last post I had proposed a companions-list approach — a static config of pre-programmed group of processes that RAM would manage alongside the student's code. That got put on hold after the mentor sync. The mentor had a cleaner direction: RAM should handle **N applications** generically, driven by the frontend payload, so RAM doesn't need to know anything about the exercise topology upfront. More flexible, and no static config needed.
+
+The mentor also suggested proving the concept offline first with a small PoC before touching the real codebase — that became Anish Manager.
 
 ---
 
@@ -86,6 +88,4 @@ Here's the demo:
 
 ## What's next
 
-The test hook is hardcoded for now — RAM spawns `processB` on its own rather than reading it from the payload. The proper version is payload-driven: the `run_application` message from the frontend will carry a list of applications, and RAM will loop over that list. That touches both RAM and RoboticsAcademy. That's the integration work coming next.
-
-The process management layer inside RAM is done and verified.
+The test hook is hardcoded for now — RAM spawns `processB` on its own, not from any external input. The process management layer itself is done and verified. Further integration work is ongoing.
