@@ -16,7 +16,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/gsoc2026-Anish_Kumar/blog/";
           },
-        },{id: "post-integrating-multi-process-support-into-ram",
+        },{id: "post-gazebo-city-world-amp-aerostack2-setup",
+        
+          title: "Gazebo City World &amp; Aerostack2 Setup",
+        
+        description: "Built a custom city environment in Gazebo Harmonic, spawned drones, and set up Aerostack2 as the flight control framework for the Cat-Mouse exercise.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/gsoc2026-Anish_Kumar/blog/2026/gazebo-city-world-and-aerostack2-setup/";
+          
+        },
+      },{id: "post-integrating-multi-process-support-into-ram",
         
           title: "Integrating Multi-Process Support into RAM",
         
