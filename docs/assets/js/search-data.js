@@ -16,7 +16,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/gsoc2026-Anish_Kumar/blog/";
           },
-        },{id: "post-gazebo-city-world-amp-aerostack2-setup",
+        },{id: "post-multi-process-code-execution-in-roboticsacademy",
+        
+          title: "Multi-Process Code Execution in RoboticsAcademy",
+        
+        description: "Making RAM manage two independent agent processes from a single exercise session — the foundation for Drone Cat-Mouse.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/gsoc2026-Anish_Kumar/blog/2026/multiprocess-code-execution/";
+          
+        },
+      },{id: "post-gazebo-city-world-amp-aerostack2-setup",
         
           title: "Gazebo City World &amp; Aerostack2 Setup",
         
