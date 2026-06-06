@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Week 2 — Multi-Process Code Execution in RoboticsAcademy"
-date: 2026-06-01 12:00:00+0530
+title: "Multi-Process Code Execution in RoboticsAcademy"
+date: 2026-06-07 12:00:00+0530
 description: Making RAM manage two independent agent processes from a single exercise session — the foundation for Drone Cat-Mouse.
 tags: [gsoc, jderobot, ros2, ram, multi-agent]
 categories: [weekly-update]
