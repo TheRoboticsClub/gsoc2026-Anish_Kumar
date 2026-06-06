@@ -71,4 +71,15 @@ Slowly heading towards the goal.
 
 The pattern is exercise-agnostic. Any future exercise needing N agents follows the same structure: add a `processB/`, `processC/` folder to the exercise template. RAM detects and launches them. The `application_processes` dict handles lifecycle for all uniformly.
 
+---
+
+## Pull Requests
+
+Also drafted and opened PRs this week consolidating all previous work:
+
+- **[RoboticsApplicationManager #284](https://github.com/JdeRobot/RoboticsApplicationManager/pull/284)**
+- **[RoboticsInfrastructure #742](https://github.com/JdeRobot/RoboticsInfrastructure/pull/742)**
+
+Under review.
+
 
