@@ -107,7 +107,7 @@ Pause appeared to work but didn't actually freeze the drones. Reset only reset d
 
 I ran `gz service -l` and compared it against what the code was calling. The gz control calls in `launcher_gzsim.py` were hardcoded to `/world/default/control`. This exercise's world is `my_city_world`. The calls were hitting a service that didn't exist and failing silently. And `reset()` was hardcoded to call `/drone0/...` services — drone1 was completely ignored.
 
-Fix: I added `_detect_gz_world_name()` which parses `gz service -l` to find the actual `/world/<name>/control` at runtime, and `_find_drone_namespaces()` which scans `ros2 service list` for all `*/platform/state_machine/_reset` services and resets every one. Neither function knows or cares how many drones are running or what the world is named.
+Fix: I added `_find_drone_namespaces()` which scans `ros2 service list` for all `*/platform/state_machine/_reset` services and resets every one — it doesn't care how many drones are running or what the world is named.
 
 ---
 
@@ -126,3 +126,8 @@ Fix: I added `_detect_gz_world_name()` which parses `gz service -l` to find the 
 ## Where it stands
 
 The exercise launches cleanly from the Robotics Academy UI, both drones spawn and take off, the cat tracks and chases the live mouse, and Stop / Pause / Reset all behave correctly for both drones.
+
+Updated PRs with the latest commits:
+
+- **[RoboticsApplicationManager #284](https://github.com/JdeRobot/RoboticsApplicationManager/pull/284)**
+- **[RoboticsInfrastructure #742](https://github.com/JdeRobot/RoboticsInfrastructure/pull/742)**
