@@ -16,7 +16,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/gsoc2026-Anish_Kumar/blog/";
           },
-        },{id: "post-multi-process-code-execution-in-roboticsacademy",
+        },{id: "post-getting-the-drone-cat-and-mouse-exercise-into-robotics-academy",
+        
+          title: "Getting the Drone Cat-and-Mouse Exercise into Robotics Academy",
+        
+        description: "Full integration of a two-drone chase exercise into RAM — database wiring, multi-process launch, and seven bugs debugged in order.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/gsoc2026-Anish_Kumar/blog/2026/drone-cat-mouse-integration/";
+          
+        },
+      },{id: "post-multi-process-code-execution-in-roboticsacademy",
         
           title: "Multi-Process Code Execution in RoboticsAcademy",
         
