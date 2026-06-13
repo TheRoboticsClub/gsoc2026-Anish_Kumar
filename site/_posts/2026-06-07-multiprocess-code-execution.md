@@ -15,9 +15,7 @@ This week's goal was proving that RAM can manage two independent agent processes
 
 One design decision worth noting: the exercise code — including `processB/` — is bundled and sent from the browser, not fetched from a database on the RAM side (which was one option considered).
 
-The reason comes down to future use. RoboticsAcademy feeds into **Unibotics**, where students will eventually share and load each other's code. In that model, code lives with the client and gets pushed to RAM at run time — not pulled from a server-side store. Keeping the zip in the browser payload keeps that path clean and avoids coupling RAM to any particular storage backend.
-
-The mentor flagged this as a good design point for long-term compatibility.
+Keeping code in the browser payload means RAM stays decoupled from any storage backend — code lives with the client and gets pushed to RAM at run time. The mentor flagged this as a clean design point for RoboticsAcademy's architecture.
 
 ---
 
