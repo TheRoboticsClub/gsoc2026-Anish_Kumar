@@ -129,5 +129,6 @@ The exercise launches cleanly from the Robotics Academy UI, both drones spawn an
 
 Updated PRs with the latest commits:
 
+- **[RoboticsAcademy #3872](https://github.com/JdeRobot/RoboticsAcademy/pull/3872)**
 - **[RoboticsApplicationManager #284](https://github.com/JdeRobot/RoboticsApplicationManager/pull/284)**
 - **[RoboticsInfrastructure #742](https://github.com/JdeRobot/RoboticsInfrastructure/pull/742)**
