@@ -7,7 +7,7 @@ tags: [gsoc, jderobot, ros2, aerostack2, debugging, multi-agent]
 categories: [weekly-update]
 ---
 
-Honestly, I've been heads-down on this across the past couple of weeks — it's been one of the major tasks of the whole project. Once I started integrating the cat-and-mouse exercise into Robotics Academy properly, I hit a chain of bugs that had me spending full days just debugging, one after another. I felt like writing it all down here because it was that kind of hectic.
+I've been working on this integration for the past few weeks — getting the drone cat-and-mouse exercise properly wired into Robotics Academy has been one of the bigger pieces of the project. Along the way I ran into a bunch of bugs, some obvious and some not at all, and I wanted to document them here as I worked through them.
 
 The goal was straightforward: get the exercise running inside Robotics Academy, wired into RAM, launchable from the UI. In reality that meant seeding the database, fixing the launch files, and working through bugs that only reveal themselves once both drones are actually running at the same time.
 
