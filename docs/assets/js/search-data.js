@@ -16,7 +16,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/gsoc2026-Anish_Kumar/blog/";
           },
-        },{id: "post-getting-the-drone-cat-and-mouse-exercise-into-robotics-academy",
+        },{id: "post-moving-from-n-users-to-n-robots",
+        
+          title: "Moving from N Users to N Robots",
+        
+        description: "RAM now handles multiple user applications — this week the work shifted to making the robot side symmetric too.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/gsoc2026-Anish_Kumar/blog/2026/n-robots-support/";
+          
+        },
+      },{id: "post-getting-the-drone-cat-and-mouse-exercise-into-robotics-academy",
         
           title: "Getting the Drone Cat-and-Mouse Exercise into Robotics Academy",
         
