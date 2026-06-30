@@ -118,12 +118,3 @@ I staggered the two starting poses along the straight (same lane, 3 m apart in t
 
 ---
 
-## Footnote: a broken legacy solution I tripped over
-
-While cross-checking the cat-and-mouse solutions in `RoboticsAcademy-solutions`, the legacy ROS1 mouse (`teleoperated_mouse.py`) is broken as-is:
-
-- **Mixed tabs and spaces** in the main loop → `IndentationError`.
-- **`Frequency` is never imported**, yet `Frequency.tick()` is called.
-- It's written against **ROS1 `DroneWrapper`, not the HAL** the current RADI exercise uses.
-
-It's the old ROS1 file, superseded by the RADI web-template version — but worth flagging since it won't run if anyone picks it up by mistake.
