@@ -16,7 +16,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/gsoc2026-Anish_Kumar/blog/";
           },
-        },{id: "post-moving-from-n-users-to-n-robots",
+        },{id: "post-n-robots-in-ram-testing-it-end-to-end",
+        
+          title: "N Robots in RAM — Testing It End to End",
+        
+        description: "Last week I designed the N-robots list approach. This week I wired it through the full stack, tested it with two F1 cars, and fought through every bug along the way.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/gsoc2026-Anish_Kumar/blog/2026/n-robots-in-ram-testing-end-to-end/";
+          
+        },
+      },{id: "post-moving-from-n-users-to-n-robots",
         
           title: "Moving from N Users to N Robots",
         
