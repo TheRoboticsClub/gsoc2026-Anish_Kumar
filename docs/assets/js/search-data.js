@@ -16,7 +16,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/gsoc2026-Anish_Kumar/blog/";
           },
-        },{id: "post-n-robots-in-ram-testing-it-end-to-end",
+        },{id: "post-a-bit-of-a-mixed-bag-but-a-good-one",
+        
+          title: "A Bit of a Mixed Bag (But a Good One)",
+        
+        description: "Chase algorithms, difficulty levels, a deep dive into video production, and finally cracking the N-robot parallel spawn.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/gsoc2026-Anish_Kumar/blog/2026/algorithms-video-and-n-robots/";
+          
+        },
+      },{id: "post-n-robots-in-ram-testing-it-end-to-end",
         
           title: "N Robots in RAM — Testing It End to End",
         
