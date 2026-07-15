@@ -16,7 +16,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/gsoc2026-Anish_Kumar/blog/";
           },
-        },{id: "post-a-bit-of-a-mixed-bag-but-a-good-one",
+        },{id: "post-polishing-prs-and-a-lot-of-code-review",
+        
+          title: "Polishing, PRs, and a Lot of Code Review",
+        
+        description: "Less building, more sharpening — tuning the chase, reworking cameras, and working through a detailed review cycle across four repos.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/gsoc2026-Anish_Kumar/blog/2026/polishing-prs-and-code-review/";
+          
+        },
+      },{id: "post-a-bit-of-a-mixed-bag-but-a-good-one",
         
           title: "A Bit of a Mixed Bag (But a Good One)",
         
