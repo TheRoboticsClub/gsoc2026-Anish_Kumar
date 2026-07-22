@@ -16,7 +16,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/gsoc2026-Anish_Kumar/blog/";
           },
-        },{id: "post-polishing-prs-and-a-lot-of-code-review",
+        },{id: "post-two-drones-one-manager-and-a-lot-of-things-that-were-only-pretending-to-work",
+        
+          title: "Two Drones, One Manager, and a Lot of Things That Were Only Pretending...",
+        
+        description: "Week 12 — finding the parts of the pipeline quietly held together by assumptions, and fixing them one by one.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/gsoc2026-Anish_Kumar/blog/2026/two-drones-one-manager/";
+          
+        },
+      },{id: "post-polishing-prs-and-a-lot-of-code-review",
         
           title: "Polishing, PRs, and a Lot of Code Review",
         
