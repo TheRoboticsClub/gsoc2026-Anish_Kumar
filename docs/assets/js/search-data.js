@@ -16,7 +16,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/gsoc2026-Anish_Kumar/blog/";
           },
-        },{id: "post-two-drones-one-manager-and-a-lot-of-things-that-were-only-pretending-to-work",
+        },{id: "post-from-ground-truth-to-the-camera",
+        
+          title: "From Ground Truth to the Camera",
+        
+        description: "Camera-based chase, two merges, paintable drones, three worlds, and RAM getting smaller.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/gsoc2026-Anish_Kumar/blog/2026/from-ground-truth-to-the-camera/";
+          
+        },
+      },{id: "post-two-drones-one-manager-and-a-lot-of-things-that-were-only-pretending-to-work",
         
           title: "Two Drones, One Manager, and a Lot of Things That Were Only Pretending...",
         
