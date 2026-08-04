@@ -16,7 +16,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/gsoc2026-Anish_Kumar/blog/";
           },
-        },{id: "post-from-ground-truth-to-the-camera",
+        },{id: "post-chase-algorithms-an-evasive-mouse-and-the-hard-level",
+        
+          title: "Chase Algorithms, an Evasive Mouse, and the Hard Level",
+        
+        description: "Three difficulty levels, five tracking ideas, one evasive drone that actually fights back, and the tuning decisions behind all of it.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/gsoc2026-Anish_Kumar/blog/2026/chase-algorithms-and-evasive-mouse/";
+          
+        },
+      },{id: "post-from-ground-truth-to-the-camera",
         
           title: "From Ground Truth to the Camera",
         
