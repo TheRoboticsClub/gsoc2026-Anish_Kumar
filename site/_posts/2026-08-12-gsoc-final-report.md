@@ -118,6 +118,7 @@ After that I show the same thing at a bigger size, because two robots was never 
 | 3 Aug 2026 | RoboticsAcademy | [#3954](https://github.com/JdeRobot/RoboticsAcademy/pull/3954) | Adding the difficulty levels |
 | 3 Aug 2026 | RoboticsInfrastructure | [#787](https://github.com/JdeRobot/RoboticsInfrastructure/pull/787) | A launch file for each of the three levels |
 | 4 Aug 2026 | RoboticsInfrastructure | [#789](https://github.com/JdeRobot/RoboticsInfrastructure/pull/789) | The chasing drone reuses the shared drone definition |
+{: .table .table-bordered}
 
 ### Robotics Application Manager
 
@@ -129,11 +130,14 @@ The multi-program support in the manager repository came from my work, but it wa
 
 Only Drone Cat and Mouse uses more than one robot so far. The platform can hold many now, so the interesting part is what gets built on top of it. Some of these already have everything they need in Robotics Academy:
 
-- **Pick and Place** — two arms building the same pallet, working either side of it without getting in each other's way
-- **Warehouse** — a handful of robots working the same aisles, deciding who goes first and who waits
-- **Follow Line** — four cars on one circuit, which turns a lap time into a race
-- **Rescue People** — two drones splitting the search between them instead of one covering everything
-- **Swarms and formation flying** — many drones holding a shape while they move, which I already tried with six drones in one world
+| Exercise | What changes with multi-robot |
+|---|---|
+| **Pick and Place** | Two arms building the same pallet, working either side without getting in each other's way |
+| **Warehouse** | A handful of robots working the same aisles, deciding who goes first and who waits |
+| **Follow Line** | Four cars on one circuit, which turns a lap time into a race |
+| **Rescue People** | Two drones splitting the search between them instead of one covering everything |
+| **Swarms and formation flying** | Many drones holding a shape while they move — already tested with six drones in one world |
+{: .table .table-bordered}
 
 > None of these need new platform work. They only need someone to write them, and that is the part I am most happy about — the next exercise with more than one robot can come from anyone.
 
