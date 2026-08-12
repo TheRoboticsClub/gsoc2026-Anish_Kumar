@@ -16,7 +16,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/gsoc2026-Anish_Kumar/blog/";
           },
-        },{id: "post-chase-algorithms-an-evasive-mouse-and-the-hard-level",
+        },{id: "post-gsoc-2026-final-report-multi-robot-support-for-robotics-academy",
+        
+          title: "GSoC 2026 Final Report — Multi-Robot Support for Robotics Academy",
+        
+        description: "A full account of the summer — what was built, how it happened, and what comes next.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/gsoc2026-Anish_Kumar/blog/2026/gsoc-final-report/";
+          
+        },
+      },{id: "post-chase-algorithms-an-evasive-mouse-and-the-hard-level",
         
           title: "Chase Algorithms, an Evasive Mouse, and the Hard Level",
         
