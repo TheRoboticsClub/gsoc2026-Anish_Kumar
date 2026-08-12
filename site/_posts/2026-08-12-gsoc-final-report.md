@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "GSoC 2026 Final Report — Multi-Robot Support for Robotics Academy"
+title: "GSoC 2026 Final Report — Drone Cat-Mouse Chase with Two Concurrent Drones"
 date: 2026-08-12 12:00:00+0530
-description: A full account of the summer — what was built, how it happened, and what comes next.
+description: "Drone Cat-Mouse Chase with Two Concurrent Drones · Multi-Robot Support for Robotics Academy"
 tags: [gsoc, jderobot, ros2, multi-agent, robotics-academy]
 categories: [weekly-update]
 ---
