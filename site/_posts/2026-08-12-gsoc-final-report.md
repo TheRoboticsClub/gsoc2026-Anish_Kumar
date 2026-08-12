@@ -141,8 +141,8 @@ Only Drone Cat and Mouse uses more than one robot so far. The platform can hold 
 
 ## Thank you
 
-I could not have asked for better mentors than Jose Maria Canas and Pedro Arias-Perez. They were really very supportive throughout. The way they pick up a concept and explain it starting from the simplest form, and then take it slowly to the harder parts, is the thing I learned the most from. I made mistakes many times during this project, and every time they explained it patiently instead of just telling me it was wrong.
+I could not have asked for better mentors than **Jose Maria Canas** and **Pedro Arias-Perez**. They were really very supportive throughout. The way they pick up a concept and explain it starting from the simplest form, and then take it slowly to the harder parts, is the thing I learned the most from. I made mistakes many times during this project, and every time they explained it patiently instead of just telling me it was wrong.
 
 Thank you to JdeRobot for taking me in, and to Google Summer of Code.
 
-I am not finished with this. I will keep maintaining what I built and help other developers who want to use it, and the next exercise using more than one robot might still be mine.
+I am not finished with this. I will keep maintaining what I built and help other developers who want to use it.
