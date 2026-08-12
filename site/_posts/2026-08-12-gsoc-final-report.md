@@ -9,7 +9,7 @@ categories: [weekly-update]
 
 ## About me
 
-I am Anish, a third year Robotics and AI student at IIT Mandi. What interests me most is the part where software meets something physical — robots that have to perceive the world and move through it, and the systems around them that make any of it actually usable. I care about open source, and I am generally the person who would rather spend a weekend debugging a robot than doing almost anything else.
+I'm Anish, a third-year student at IIT Mandi studying robotics and artificial intelligence. The area where software and physical systems meet — systems that must sense and navigate their surroundings, and the infrastructure that enables them to do so — is what most intrigues me. Open source is important to me, and I'm the type of person who would much prefer to spend a weekend troubleshooting a robot than practically anything else.
 
 ---
 
@@ -45,7 +45,7 @@ I did not want to touch the real thing straight away, so I first built a small s
 
 > Where the manager used to hold one program, it now holds a list. Almost everything around it assumed there was only one, so a lot of smaller things had to be fixed along with it.
 
-Blog posts: [Integrating multi-process support into RAM](../blog/), [Multi-process code execution](../blog/)
+Blog posts: [Integrating multi-process support into RAM](/gsoc2026-Anish_Kumar/blog/2026/ram-multiprocess-integration/), [Multi-process code execution](/gsoc2026-Anish_Kumar/blog/2026/multiprocess-code-execution/)
 
 ---
 
@@ -55,13 +55,13 @@ Next was the simulation side. Even if you could run three programs, all three wo
 
 The fix was to give every robot its own name, and to make the launch files take that name as an input instead of having it written inside them.
 
-The database also had to change. The world used to say "put this robot here, this many times", which cannot describe where each copy goes. Now it says "here are the robots, and here is where each one starts". That is what lets one line in the database put five drones in five different places.
+The database also had to change. I proposed a many-to-many relationship between worlds and robots to the maintainers. The world used to say "put this robot here, this many times", which cannot describe where each copy goes. Now it says "here are the robots, and here is where each one starts". That is what lets one line in the database put five drones in five different places.
 
 > After this, adding a second robot to a world stopped being a code change. It became a row in the database.
 
 I tested this with two F1 cars first, before any drone existed, because cars are simpler and if it worked for them it would work for anything else. Seeing two cars spawn in one world, each listening to its own program, was the point where I knew the project would work.
 
-Blog posts: [Moving from N users to N robots](../blog/), [N robots in RAM, tested end to end](../blog/)
+Blog posts: [Moving from N users to N robots](/gsoc2026-Anish_Kumar/blog/2026/n-robots-support/), [N robots in RAM, tested end to end](/gsoc2026-Anish_Kumar/blog/2026/n-robots-in-ram-testing-end-to-end/)
 
 ---
 
@@ -75,7 +75,7 @@ Then I added three levels. Easy is a straight line and the escaping drone ignore
 
 > All three levels run the same escape program. Which level it flies is decided by the world you picked.
 
-Blog posts: [Gazebo city world](../blog/), [Getting the exercise into Robotics Academy](../blog/), [Two drones, one manager](../blog/), [Chase algorithms and the hard level](../blog/)
+Blog posts: [Gazebo city world](/gsoc2026-Anish_Kumar/blog/2026/gazebo-city-world-and-aerostack2-setup/), [Getting the exercise into Robotics Academy](/gsoc2026-Anish_Kumar/blog/2026/drone-cat-mouse-integration/), [Two drones, one manager](/gsoc2026-Anish_Kumar/blog/2026/two-drones-one-manager/), [Chase algorithms and the hard level](/gsoc2026-Anish_Kumar/blog/2026/chase-algorithms-and-evasive-mouse/)
 
 ---
 
@@ -89,7 +89,7 @@ So I took that away. The chasing drone now only has its camera. It has to find t
 
 On the hard level this matters a lot. The escaping drone takes sharp turns around a tree, and if you chase it blindly you go straight into the trunk and lose.
 
-Blog post: [From ground truth to the camera](../blog/)
+Blog post: [From ground truth to the camera](/gsoc2026-Anish_Kumar/blog/2026/from-ground-truth-to-the-camera/)
 
 ---
 
@@ -141,7 +141,7 @@ Only Drone Cat and Mouse uses more than one robot so far. The platform can hold 
 
 ## Thank you
 
-I could not have asked for better mentors than Jose Maria Canas and Pedro. They were really very supportive throughout. The way they pick up a concept and explain it starting from the simplest form, and then take it slowly to the harder parts, is the thing I learned the most from. I made mistakes many times during this project, and every time they explained it patiently instead of just telling me it was wrong.
+I could not have asked for better mentors than Jose Maria Canas and Pedro Arias-Perez. They were really very supportive throughout. The way they pick up a concept and explain it starting from the simplest form, and then take it slowly to the harder parts, is the thing I learned the most from. I made mistakes many times during this project, and every time they explained it patiently instead of just telling me it was wrong.
 
 Thank you to JdeRobot for taking me in, and to Google Summer of Code.
 
