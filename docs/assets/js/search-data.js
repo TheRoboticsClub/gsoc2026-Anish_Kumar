@@ -16,11 +16,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/gsoc2026-Anish_Kumar/blog/";
           },
-        },{id: "post-gsoc-2026-final-report-multi-robot-support-for-robotics-academy",
+        },{id: "post-gsoc-2026-final-report-drone-cat-mouse-chase-with-two-concurrent-drones",
         
-          title: "GSoC 2026 Final Report — Multi-Robot Support for Robotics Academy",
+          title: "GSoC 2026 Final Report — Drone Cat-Mouse Chase with Two Concurrent Drones",
         
-        description: "A full account of the summer — what was built, how it happened, and what comes next.",
+        description: "Drone Cat-Mouse Chase with Two Concurrent Drones · Multi-Robot Support for Robotics Academy",
         section: "Posts",
         handler: () => {
           
