@@ -99,13 +99,17 @@ Blog post: [From ground truth to the camera](/gsoc2026-Anish_Kumar/blog/2026/fro
   <iframe src="https://www.youtube.com/embed/cPVsjWLAd_A" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" allowfullscreen></iframe>
 </div>
 
+<br>
+
 This is the whole project in one place: Robotics Academy could only run one robot before, and now it runs many, with the chase as the thing that proves it.
 
 In the video I show what the project was for, using the two robot exercise. The Drone Cat and Mouse chase is played on all three levels, with the cat drone chasing the mouse drone (2 robots) and the score at the end of each run.
 
 After that I show the same thing at a bigger size, because two robots was never the actual limit. There is a world with five drones flying together, and the existing Vacuum Cleaner exercise running with three robots in one house instead of one.
 
-<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin-top:1rem;">
+<br>
+
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin-top:2rem;">
   <iframe src="https://www.youtube.com/embed/Jj9ORzrbMdQ" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" allowfullscreen></iframe>
 </div>
 
