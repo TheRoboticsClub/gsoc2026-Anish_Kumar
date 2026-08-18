@@ -30,7 +30,7 @@ The mouse gets harder across three levels, from a slow straight line to fast lap
 | RoboticsInfrastructure | [#789](https://github.com/JdeRobot/RoboticsInfrastructure/pull/789) | The chasing drone reuses the shared drone definition |
 | RoboticsApplicationManager | [#298](https://github.com/JdeRobot/RoboticsApplicationManager/pull/298) | Multi-process support in RAM (based on my contribution) |
 | RoboticsAcademy | [#3969](https://github.com/JdeRobot/RoboticsAcademy/pull/3969) | Documentation for the exercise |
-| jderobot.github.io | [#401](https://github.com/JdeRobot/jderobot.github.io/pull/401) | Exercise page on the JdeRobot website |
+| jderobot.github.io | [#401](https://github.com/JdeRobot/jderobot.github.io/pull/401) | Documentation update — added name to contributors |
 
 ## Built with
 

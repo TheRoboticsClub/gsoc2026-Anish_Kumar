@@ -129,7 +129,7 @@ After that I show the same thing at a bigger size, because two robots was never 
 | 3 Aug 2026 | RoboticsInfrastructure | [#787](https://github.com/JdeRobot/RoboticsInfrastructure/pull/787) | A launch file for each of the three levels |
 | 4 Aug 2026 | RoboticsInfrastructure | [#789](https://github.com/JdeRobot/RoboticsInfrastructure/pull/789) | The chasing drone reuses the shared drone definition |
 | 13 Aug 2026 | RoboticsAcademy | [#3969](https://github.com/JdeRobot/RoboticsAcademy/pull/3969) | Documentation for the exercise |
-| 13 Aug 2026 | jderobot.github.io | [#401](https://github.com/JdeRobot/jderobot.github.io/pull/401) | Exercise page on the JdeRobot website |
+| 13 Aug 2026 | jderobot.github.io | [#401](https://github.com/JdeRobot/jderobot.github.io/pull/401) | Documentation update|
 {: .table .table-bordered}
 
 ### Robotics Application Manager
