@@ -130,6 +130,7 @@ After that I show the same thing at a bigger size, because two robots was never 
 | 4 Aug 2026 | RoboticsInfrastructure | [#789](https://github.com/JdeRobot/RoboticsInfrastructure/pull/789) | The chasing drone reuses the shared drone definition |
 | 13 Aug 2026 | RoboticsAcademy | [#3969](https://github.com/JdeRobot/RoboticsAcademy/pull/3969) | Documentation for the exercise |
 | 13 Aug 2026 | jderobot.github.io | [#401](https://github.com/JdeRobot/jderobot.github.io/pull/401) | Exercise page on the JdeRobot website |
+{: .table .table-bordered}
 
 ### Robotics Application Manager
 
@@ -148,6 +149,7 @@ Only Drone Cat and Mouse uses more than one robot so far. The platform can hold 
 | **Formula1 chasing** | Two Formula1 cars starting at opposite places of the circuit chase each other — the one which best follows the red line reaches its opponent |
 | **Rescue People** | Two drones splitting the search between them instead of one covering everything |
 | **Swarms and formation flying** | Many drones holding a shape while they move — already tested with six drones in one world |
+{: .table .table-bordered}
 
 > None of these need new platform work. They only need someone to write them, and that is the part I am most happy about — the next exercise with more than one robot can come from anyone.
 
