@@ -37,7 +37,7 @@ To show it working, I built a new exercise called **Drone Cat and Mouse**. Two d
 
 I will split this into four parts, because that is roughly how it happened.
 
-### 1. Running more than one program at a time
+### 1. Running more than one robotics application at a time
 
 The first problem was not the robots at all. It was that the part of the platform that runs your code, called the Robotics Application Manager, could only keep track of one running program.
 
@@ -45,11 +45,13 @@ I did not want to touch the real thing straight away, so I first built a small s
 
 > Where the manager used to hold one program, it now holds a list. Almost everything around it assumed there was only one, so a lot of smaller things had to be fixed along with it.
 
+All the applications are launched at the same time, and pause, resume and reset all happen together across every running process. C++ applications are supported alongside Python, not only Python.
+
 Blog posts: [Integrating multi-process support into RAM](/gsoc2026-Anish_Kumar/blog/2026/ram-multiprocess-integration/), [Multi-process code execution](/gsoc2026-Anish_Kumar/blog/2026/multiprocess-code-execution/)
 
 ---
 
-### 2. From one robot to many
+### 2. From one robot to many in the same robotics world
 
 Next was the simulation side. Even if you could run three programs, all three would end up talking to the same robot, because every robot was published on the same channels.
 
@@ -65,7 +67,7 @@ Blog posts: [Moving from N users to N robots](/gsoc2026-Anish_Kumar/blog/2026/n-
 
 ---
 
-### 3. The Drone Cat and Mouse exercise
+### 3. The Drone Cat and Mouse exercise and its infrastructure (world, auxiliary libraries...)
 
 With the platform able to hold two robots, I built the exercise.
 
@@ -79,7 +81,7 @@ Blog posts: [Gazebo city world](/gsoc2026-Anish_Kumar/blog/2026/gazebo-city-worl
 
 ---
 
-### 4. Chasing with a camera, without ground truth
+### 4. Reference solution: cat drone chasing with a camera, without ground truth
 
 At first the chasing drone just read the other drone's real position from the simulator. That works, but it teaches nothing, because there is no problem left to solve.
 
@@ -126,7 +128,8 @@ After that I show the same thing at a bigger size, because two robots was never 
 | 3 Aug 2026 | RoboticsAcademy | [#3954](https://github.com/JdeRobot/RoboticsAcademy/pull/3954) | Adding the difficulty levels |
 | 3 Aug 2026 | RoboticsInfrastructure | [#787](https://github.com/JdeRobot/RoboticsInfrastructure/pull/787) | A launch file for each of the three levels |
 | 4 Aug 2026 | RoboticsInfrastructure | [#789](https://github.com/JdeRobot/RoboticsInfrastructure/pull/789) | The chasing drone reuses the shared drone definition |
-{: .table .table-bordered}
+| 13 Aug 2026 | RoboticsAcademy | [#3969](https://github.com/JdeRobot/RoboticsAcademy/pull/3969) | Documentation for the exercise |
+| 13 Aug 2026 | jderobot.github.io | [#401](https://github.com/JdeRobot/jderobot.github.io/pull/401) | Exercise page on the JdeRobot website |
 
 ### Robotics Application Manager
 
@@ -142,10 +145,9 @@ Only Drone Cat and Mouse uses more than one robot so far. The platform can hold 
 |---|---|
 | **Pick and Place** | Two arms building the same pallet, working either side without getting in each other's way |
 | **Warehouse** | A handful of robots working the same aisles, deciding who goes first and who waits |
-| **Follow Line** | Four cars on one circuit, which turns a lap time into a race |
+| **Formula1 chasing** | Two Formula1 cars starting at opposite places of the circuit chase each other — the one which best follows the red line reaches its opponent |
 | **Rescue People** | Two drones splitting the search between them instead of one covering everything |
 | **Swarms and formation flying** | Many drones holding a shape while they move — already tested with six drones in one world |
-{: .table .table-bordered}
 
 > None of these need new platform work. They only need someone to write them, and that is the part I am most happy about — the next exercise with more than one robot can come from anyone.
 
